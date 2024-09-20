@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product-view.css">
+    <script src="/scripts/size.js" defer></script>
+    <script src="/scripts/color.js" defer></script>
+    <script src="/scripts/tabs.js" defer></script>
+
+    <title>ProductView</title>
+</head>
+<body>
+    <!-- cjntainer-content 1100 -->
+
+    <div class="wrapper">
+
+        
+        <header class="header">
+
+            <h1 class="lined-text">
+                <span class="lined-text__word">три</span>
+                <span class="lined-text__word">футболки</span>
+                <span class="lined-text__word lined-text__word--coloryellow">по цене</span>
+                <span class="lined-text__word lined-text__word--coloryellow">двух</span>
+            </h1>
+
+            <div class="header-container">
+                <img class="header__logo" src="/images/web-ready/content/logos/logo-main.png" alt="">
+                <!-- <img class="header__banner" src="/images/web-ready/content/hero/slider_pic_1.png" alt=""> -->
+                <div class="header__banner"></div>
+                <div class="header-contacts">
+                    <!-- <div class="header-contacts__desc"></div> -->
+                    <a class="header-contacts__email" href="#">
+                        <div class="mail__title">По всем вопросам пишите на:</div>
+                        <div class="mail__content">test@mail.com</div>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!-- !MAIN-CONTENT -->
+         <main class="main">
+
+            <!-- !PRODUCT SECTION -->
+            <section class="product">
+                <div class="content main--content">
+                    <div class="product-left">
+                        <img class="product__product-img" src="/images/web-ready/tshirts/tshirt_07.png" alt="">
+                    </div>
+
+                    <div class="product-right">
+                        <div class="product-top">
+                            <h3 class="product__desc">Футболка Hurley</h3>
+                            <h2 class="product__title">Rick And Morty</h2>
+                            <h3 class="product__price">2&nbsp;000</h3>
+                        </div>
+                        <hr>
+
+                        <div class="product-middle">
+
+                            <ul class="product-middle__list">
+                                <li class="product-list-item">
+                                    <span class="product__d">Состав: Хлопок 100%</span>
+                                </li>
+                                <li class="product-list-item">
+                                    <span class="product__d">Сезон: Мульти</span>
+                                </li>
+                                <li class="product-list-item">
+                                    <span class="product__d">Цвет: Черный</span>
+                                </li>
+                                <li class="product-list-item">
+                                    <span class="product__d">Узор: Рисунки и надписи</span>
+                                </li>
+                                <li class="product-list-item">
+                                    <span class="product__d"> Страна производства: Россия</span>
+                                </li>
+                                <li class="product-list-item">
+                                    <span class="product__d">Артикул: MA002EWDOEZ6</span>
+                                </li>
+                            </ul>
+                           
+                        </div>
+                        <hr>
+
+                        <div class="product-sizes">
+                            <ul class="product-sizes__list">
+                                <li class="product-sizes-item xss">
+                                    <a class="xss-link size-link" href="#">xss</a>
+                                </li>
+                                <li class="product-sizes-item xs">
+                                    <a class="xs-link size-link" href="#">xs</a>
+                                </li>
+                                <li class="product-sizes-item s">
+                                    <a class="s-link size-link" href="#">s</a>
+                                </li>
+                                <li class="product-sizes-item m">
+                                    <a class="m-link size-link" href="#">m</a>
+                                </li>
+                                <li class="product-sizes-item l">
+                                    <a class="l-link size-link" href="#">l</a>
+                                </li>
+                                <li class="product-sizes-item xl">
+                                    <a class="xl-link size-link" href="#">xl</a>
+                                </li>
+                                <li class="product-sizes-item 2xl">
+                                    <a class="2xl-link size-link" href="#">2xl</a>
+                                </li>
+                                <li class="product-sizes-item 3xl">
+                                    <a class="3xl-link size-link" href="#">3xl</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="product-colors">
+
+                            <label for="rb-black">black</label>
+                            <input class="radio" type="radio" name="colors" id="rb-black" value="black" checked>
+                            <label for="rb-white">white</label>
+                            <input class="radio" type="radio" name="colors" id="rb-white" value="white">
+                            <label for="rb-green">green</label>
+                            <input class="radio" type="radio" name="colors" id="rb-green" value="green">
+                            <label for="rb-blue">blue</label>
+                            <input class="radio" type="radio" name="colors" id="rb-blue" value="blue">
+                            <label for="rb-red">red</label>
+                            <input class="radio" type="radio" name="colors" id="rb-red" value="red">
+
+                            <!-- <div class="form_radio">
+                                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                <label for="radio-1">Radio button 1</label>
+                            </div>
+                             
+                            <div class="form_radio">
+                                <input id="radio-2" type="radio" name="radio" value="2">
+                                <label for="radio-2">Radio button 2</label>
+                            </div>
+                             
+                            <div class="form_radio">
+                                <input id="radio-3" type="radio" name="radio" value="3">
+                                <label for="radio-3">Radio button 3</label>
+                            </div>
+                             
+                            <div class="form_radio">
+                                <input id="radio-4" type="radio" name="radio" value="4" disabled>
+                                <label for="radio-4">Radio disabled</label>
+                            </div> -->
+                        </div>
+
+                        <button class="btn">Купить</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- !SECTION МЕНЮ ТАБОВ -->
+             <section class="tabs">
+                <div class="content tabs-content">
+                    <ul class="tabs-list">
+                        <li class="tabs-list__item item--active">
+                            <a class="tabs__link" href="#">описание</a>
+                        </li>
+                        <li class="tabs-list__item ">
+                            <a class="tabs__link" href="#">таблица размеров</a>
+                        </li>
+                        <li class="tabs-list__item ">
+                            <a class="tabs__link" href="#">условия доставки</a>
+                        </li>
+                        <li class="tabs-list__item ">
+                            <a class="tabs__link" href="#">о бренде</a>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+
+             <!-- !SECTION  CONTENT-->
+              <section class="content-section">
+                <div class="content content-section-content">
+                    <div class="content-section-wrapper">
+                        <div class="content-section-left">
+                            <span class="ctn content-section__c1">Стирать при температуре 30°С</span>
+                            <span class="ctn content-section__c2">Не отбеливать</span>
+                            <span class="ctn content-section__c3">Гладить теплым утюгом<br>
+                                <span class="zzz">с внутренней стороны</span> 
+                            </span>
+                            <span class="ctn content-section__c4">Не подвергать химической чистке</span>
+                            <span class="ctn content-section__c5">Не сушить в барабане</span>
+                        </div>
+
+                        <div class="content-section-right">
+                            <p class="content-section-right__desc">
+                                Футболка из приятной ткани с качественным принтом, это одна из самых универсальных вещей в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен свободный дресс-код.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+              </section>
+
+
+              <!-- !Секция с размерами -->
+               <section class="table-size-section">
+                <div class="content table-size-content">
+                    <h2>Таблица размеров</h2>
+                </div>
+               </section>
+         </main>
+
+
+          <!-- !FOOTER MENU -->
+    <footer class="footer">
+        <div class="content footer__container">
+            <nav class="site-menu">
+                <ul class="site-menu__sections">
+                    <li class="site-menu__col">
+                        <h3 class="site-menu__title">Информация</h3>
+                        <ul class="site-menu__list">
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">О магазине</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Адреса магазинов</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Как сделать заказ?</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Обмен и возврат</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-menu__col">
+                        <h3 class="site-menu__title">Футболки</h3>
+                        <ul class="site-menu__list">
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Популярное</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Новинки</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Бестселлеры</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Специальные предложения</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Скоро в продаже</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="site-menu__col">
+                        <h3 class="site-menu__title">Коллекции</h3>
+                        <ul class="site-menu__list">
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Детская коллекция</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Женская коллекция</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Мужская коллекция</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Лучшие принты 2023 года</a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link">Лучшие принты 2024 года</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-menu__col">
+                        <h3 class="site-menu__title">Контактная информация</h3>
+                        <div class="site-menu__text">
+                            Санкт-Петербург, <br>
+                            ул. Жуковского, д. 12
+                        </div>
+                        <div class="site-menu__text">
+                            <a href="tel.:+78123157235" class="site-menu__text-row">
+                                Телефон: 8 (812) 315-72-35
+                            </a>
+                            <a href="mailto:support@yourwebsite.com" class="sitemenu__text-row">
+                                Email: support@yourwebsite.com
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+    <!-- !СЕКЦИЯ EXTRAS c ИКОНКАМИ -->
+    <section class="extras">
+
+        <div class="content">
+            <div class="extras__col">
+                <a href="#" class="extras__best">
+                    Лучшие принты <br>
+                    года
+                </a>
+            </div>
+            <div class="extras__col">
+                <div class="extras__col-socials">
+                    <ul class="socials">
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon">
+                                    <use xlink:href="images/web-ready/icons-sprite.svg#fb"></use>
+    
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon">
+                                    <use xlink:href="images/web-ready/icons-sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon">
+                                    <use href="images/web-ready/icons-sprite.svg#insta"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon">
+                                    <use xlink:href="images/web-ready/icons-sprite.svg#pin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    </div>
+</body>
+</html>
