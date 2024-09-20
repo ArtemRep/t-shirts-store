@@ -1,7 +1,7 @@
 @font-face {
   font-family: "alegreya";
-  src: url("/fonts/we/alegreyasanssc-black-webfont.woff2") format("woff2"),
-    url("/fonts/we/alegreyasanssc-black-webfont.woff") format("woff");
+  src: url("fonts/we/alegreyasanssc-black-webfont.woff2") format("woff2"),
+    url("fonts/we/alegreyasanssc-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -54,8 +54,8 @@ ul > li {
   position: relative;
   margin-bottom: 130px;
 
-  /* background: url('/images/web-ready/bg/hero.jpg') center center / cover no-repeat; */
-  background-image: url("/images/web-ready/bg/hero.jpg");
+  /* background: url('images/web-ready/bg/hero.jpg') center center / cover no-repeat; */
+  background-image: url("images/web-ready/bg/hero.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ ul > li {
 }
 
 .fade-slider__item {
-  background-image: url("/images/web-ready/content/hero/slider_pic_1.png");
+  background-image: url("images/web-ready/content/hero/slider_pic_1.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -304,7 +304,7 @@ ul > li {
   flex: 1;
   overflow: hidden;
   margin-right: 30px;
-  background-image: url("/images/web-ready/bg/pattern.png");
+  background-image: url("images/web-ready/bg/pattern.png");
   background-position: center;
   background-size: 500px;
   position: relative;
@@ -325,11 +325,11 @@ ul > li {
 }
 
 .collections__item--type-guys:before {
-  background-image: url("/images/web-ready/collections/collection_man.png");
+  background-image: url("images/web-ready/collections/collection_man.png");
 }
 
 .collections__item--type-girls:before {
-  background-image: url("/images/web-ready/collections/collection_woman.png");
+  background-image: url("images/web-ready/collections/collection_woman.png");
   top: -31%;
   width: 80%;
   left: -25%;
@@ -467,7 +467,7 @@ ul > li {
 
 .extras__col-socials {
   height: 100%;
-  background: url("/images/web-ready/bg/pattern.png") center center / 500px;
+  background: url("images/web-ready/bg/pattern.png") center center / 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -632,7 +632,7 @@ ul > li {
 }
 
 .fade-slider__item--style-tshirts {
-  background-image: url("/images/web-ready/content/hero/slider_pic_1.png");
+  background-image: url("images/web-ready/content/hero/slider_pic_1.png");
 }
 
 .fade-slider__item--style-tshirts .fade-slider__text {
@@ -642,7 +642,7 @@ ul > li {
 }
 
 .fade-slider__item--style-games {
-  background-image: url("/images/web-ready/content/hero/slider_pic_2.png");
+  background-image: url("images/web-ready/content/hero/slider_pic_2.png");
 }
 
 .fade-slider__item--style-games .fade-slider__text {
@@ -656,7 +656,7 @@ ul > li {
 }
 
 .fade-slider__item--style-presents {
-  background-image: url("/images/web-ready/content/hero/slider_pic_3.png");
+  background-image: url("images/web-ready/content/hero/slider_pic_3.png");
 }
 
 .fade-slider__item--style-presents .fade-slider__text {
